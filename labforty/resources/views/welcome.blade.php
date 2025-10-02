@@ -25,6 +25,7 @@
     <body class="grid grid-cols-12 gap-0">
         <div class="col-span-10 col-start-2 ">
             @include('navigation.header')
+            @include('maintenance')
         
             <main class="col-span-12">
                <!-- Welcome to our application! -->
