@@ -1,7 +1,7 @@
 <div class="flex justify-between items-center mt-5">
     <div class="w-2/12">
         <a href="{{ url('/') }}" class="flex items-center">
-            <img class="w-[22px] h-auto" src="{{ asset('images/logo.svg') }}" alt="{{ config('app.name') }}">
+            <img class="w-[22px] h-auto mr-1" src="{{ asset('images/logo.svg') }}" alt="{{ config('app.name') }}">
             <span class="h-title">{{ config('app.name') }}</span>
         </a>
     </div>
