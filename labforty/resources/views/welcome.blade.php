@@ -26,6 +26,7 @@
         <div class="col-span-10 col-start-2 ">
             @include('navigation.header')
             @include('maintenance')
+            @include('benefits')
         
             <main class="col-span-12">
                <!-- Welcome to our application! -->
