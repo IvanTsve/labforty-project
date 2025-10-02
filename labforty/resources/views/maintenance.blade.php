@@ -66,7 +66,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-full flex justify-center mt-10">
+        <div class="w-full flex flex-wrap gap-y-10 justify-center mt-10">
             <div class="w-1/4 font-medium leading-[150%]">
                 <span class="">
                     Your project is unique, and we acknowledge this by adopting a tailored strategy.
@@ -74,6 +74,12 @@
                 <span class="text-[#818181]">
                     This ensures that your specific goals and requirements are met with precision and care.
                 </span>
+            </div>
+            <div class="ml-8 w-full">
+                <a href="#contact"
+                   class="inline-block bg-[#0A59DD] text-white font-extrabold text-[14px] leading-[32px] px-8 py-2 rounded-[100px]">
+                    Let’s talk <span class="ml-3">&gt;</span>
+                </a>
             </div>
 
         </div>
