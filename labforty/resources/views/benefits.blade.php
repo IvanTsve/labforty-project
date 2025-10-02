@@ -1,7 +1,7 @@
 <div class="px-8 mb-10">
     <div class="flex justify-between items-center w-4/5 mx-auto">
         <h1 class="font-bold text-[32px] leading-[120%]">Benefits</h1>
-        <div class="font-medium text-[#0A59DD]">Speak with an expert &gt;</div>
+        <div class="font-medium text-[#0A59DD] cursor-pointer">Speak with an expert &gt;</div>
     </div>
     <div class="flex flex-wrap justify-center gap-7 items-center mt-10">
         <div class="w-1/4 bg-[#F2F2F5] rounded-[20px] flex flex-wrap items-center justify-center pt-36 pb-10 gap-8">
