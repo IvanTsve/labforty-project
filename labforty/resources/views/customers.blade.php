@@ -1,4 +1,4 @@
-<div class="flex flex-wrap justify-between items-center w-4/5 mx-auto mt-8">
+<div class="flex flex-wrap justify-between items-center w-4/5 mx-auto mt-8 px-10">
     <div class="w-3/5 mb-8">
         <h1 class="font-bold text-[55px] leading-[120%] py-5">
             We prioritize

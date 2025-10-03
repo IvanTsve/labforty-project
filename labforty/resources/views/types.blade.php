@@ -1,4 +1,4 @@
-<div class="text-center mb-20 w-4/5 mx-auto p-10">
+<div class="text-center mb-20 w-4/5 mx-auto px-10">
     <h1 class="mt-40 h-subtitle">
         Types of
         <br>
