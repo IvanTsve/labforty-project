@@ -28,6 +28,7 @@
             @include('maintenance')
             @include('benefits')
             @include('customers')
+            @include('types')
         
             <main class="col-span-12">
                <!-- Welcome to our application! -->
