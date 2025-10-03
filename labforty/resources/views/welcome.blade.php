@@ -27,6 +27,7 @@
             @include('navigation.header')
             @include('maintenance')
             @include('benefits')
+            @include('customers')
         
             <main class="col-span-12">
                <!-- Welcome to our application! -->
