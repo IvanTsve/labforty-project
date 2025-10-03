@@ -30,10 +30,12 @@
             @include('customers')
             @include('types')
             @include('process')
-        
+            
             <main class="col-span-12">
-               <!-- Welcome to our application! -->
+                <!-- Welcome to our application! -->
             </main>
+        </div>
+        @include('plan')
         </div>
     </body>
 </html>
