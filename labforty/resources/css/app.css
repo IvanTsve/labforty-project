@@ -6,6 +6,55 @@
 @source '../**/*.js';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    --font-sans: 'Manrope', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+    --font-heading: 'Nunito', sans-serif;
+}
+
+/* Global heading styles */
+@layer base {
+    h1, h2, h3, h4, h5, h6 {
+        font-family: var(--font-heading);
+        font-weight: 600;
+    }
+}
+
+/* Custom utility classes */
+@layer utilities {
+    .h-title {
+        font-family: "Nunito", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 19px;
+        line-height: 19px;
+        letter-spacing: 0;
+    }
+
+    .h-subtitle {
+        font-family: "Manrope", sans-serif;
+        font-weight: 700;
+        font-style: bold;
+        font-size: 55px;
+        line-height: 120%;
+        letter-spacing: 0;
+    }
+    
+    /* Maintenance section animations */
+    .animate-slideDown {
+        animation: slideDown 0.3s ease-out forwards;
+    }
+    
+    @keyframes slideDown {
+        from {
+            opacity: 0;
+            max-height: 0;
+            transform: translateY(-10px);
+        }
+        to {
+            opacity: 1;
+            max-height: 200px;
+            transform: translateY(0);
+        }
+    }
+   
 }
