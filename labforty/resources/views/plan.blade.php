@@ -46,7 +46,7 @@ $plans = [
     ?>
 
 
-<div class="text-center mb-20 bg-[#F2F2F5] col-span-12 flex flex-wrap">
+<div class="text-center bg-[#F2F2F5] col-span-12 flex flex-wrap">
     <h1 class="mt-30 mb-10 h-subtitle w-full">
         Find the right 
         <br>

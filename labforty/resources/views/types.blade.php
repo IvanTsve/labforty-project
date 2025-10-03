@@ -18,7 +18,7 @@
                 <div class="mb-6 w-3/5">
                     <div class="flex items-center justify-between cursor-pointer maintenance-header"
                         onclick="toggleMaintenance('corrective')">
-                        <h1 class="text-start w-9/12 font-bold text-[24px] leading-[120%] font-weight-700">Corrective maintenance
+                        <h1 class="text-start w-10/12 font-bold text-[24px] leading-[120%] font-weight-700">Corrective maintenance
                         </h1>
                         <svg class="chevron w-6 h-6 transform transition-transform duration-300" fill="none"
                             stroke="#818181" viewBox="0 0 24 24">
@@ -35,7 +35,7 @@
                 <div class="mb-6 w-3/5 border-solid border-t-1 border-[#D8D8D8] pt-5">
                     <div class="flex items-center justify-between cursor-pointer maintenance-header"
                         onclick="toggleMaintenance('preventive')">
-                        <h1 class="text-start w-9/12 font-bold text-[24px] leading-[120%] font-weight-700">Preventive maintenance
+                        <h1 class="text-start w-10/12 font-bold text-[24px] leading-[120%] font-weight-700">Preventive maintenance
                         </h1>
                         <svg class="chevron w-6 h-6 transform transition-transform duration-300" fill="none"
                             stroke="#818181" viewBox="0 0 24 24">
@@ -53,7 +53,7 @@
                 <div class="mb-6 w-3/5 border-solid border-t-1 border-[#D8D8D8] pt-5">
                     <div class="flex items-center justify-between cursor-pointer maintenance-header"
                         onclick="toggleMaintenance('perfective')">
-                        <h1 class="text-start w-9/12 font-bold text-[24px] leading-[120%] font-weight-700">Perfective maintenance
+                        <h1 class="text-start w-10/12 font-bold text-[24px] leading-[120%] font-weight-700">Perfective maintenance
                         </h1>
                         <svg class="chevron w-6 h-6 transform transition-transform duration-300" fill="none"
                             stroke="#818181" viewBox="0 0 24 24">

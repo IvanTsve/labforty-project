@@ -35,7 +35,9 @@
                 <!-- Welcome to our application! -->
             </main>
         </div>
-        @include('plan')
+            @include('plan')
         </div>
+        @include('footer.footer')
     </body>
+
 </html>
